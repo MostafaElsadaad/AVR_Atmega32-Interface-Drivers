@@ -7,7 +7,7 @@ I wrote this driver during the NTI Automotive Embedded Software program and i wa
 ##  MCAL Functions
 Here's a quick summary of the functions i wrote, for more details please check the Readme inside the MCAL Folder
 ### Digital I/O
-*  digitalRead()               &nbsp;&nbsp;&nbsp;&nbsp;   -  Reads the value from a specified digital pin, either HIGH or LOW.
+*  digitalRead()                  -  Reads the value from a specified digital pin, either HIGH or LOW.
 *  digitalWrite()                 -  Write a HIGH or a LOW value to a digital pin.
 *  pinMode()                      -  Configures the specified pin to behave either as an input or an output.
 
