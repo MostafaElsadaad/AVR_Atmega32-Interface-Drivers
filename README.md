@@ -20,7 +20,7 @@ Here's a quick summary of the functions i wrote, for more details please check t
 
 ###  Analog/Digtal Converter
 *  ADC_Init()                     -  Initiates and configures ADC
-*  u16 ADC_Read()                 -  Reads the Value from a specified analog pin
+*  ADC_Read()                     -  Reads the Value from a specified analog pin
 *  ADC_voidInterrputEnable()      -  Enables ADC interrupt
 *  ADC_voidAutoTrigger()          -  Enables ADC Auto Trigger
 *  ADC_INT_voidCallBack()         -  ADC Interrupt CallBack function
