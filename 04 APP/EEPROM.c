@@ -47,7 +47,7 @@ int main(void)
 
 		_delay_ms(1000); // allowing the eeprom to finish its writing cycle
 
-		EEPROM_Read(0x00,&R);
+		R = EEPROM_Read(0x00);
 
 		if (R==0xE0)
 
