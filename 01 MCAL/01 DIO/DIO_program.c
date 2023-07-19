@@ -29,7 +29,7 @@ u8 pinMode(u8 pin,u8 direction){  // Sets Pin Direction
 	}
 	else if(direction == INPUT_PULLUP){
 		switch(pin){
-			case PA0 ... PA7: CLR_bit(DDRA,pin);		 digitalWrite(pin,HIGH);	 break;
+			case PA0 ... PA7: CLR_bit(DDRA,pin);	     digitalWrite(pin,HIGH);	 break;
 			case PB0 ... PB7: CLR_bit(DDRB,(pin-PB0));   digitalWrite(pin,HIGH);	 break;
 			case PC0 ... PC7: CLR_bit(DDRC,(pin-PC0));   digitalWrite(pin,HIGH);	 break;
 			case PD0 ... PD7: CLR_bit(DDRD,(pin-PD0));   digitalWrite(pin,HIGH);	 break;
@@ -47,7 +47,7 @@ u8 digitalWrite(u8 pin,u8 value){  // Sets Pin Value
 
 	if(value == LOW)
 	switch(pin){
-		case PA0 ... PA7: CLR_bit(PORTA,pin);		break;
+		case PA0 ... PA7: CLR_bit(PORTA,pin);	    break;
 		case PB0 ... PB7: CLR_bit(PORTB,(pin-PB0)); break;
 		case PC0 ... PC7: CLR_bit(PORTC,(pin-PC0)); break;
 		case PD0 ... PD7: CLR_bit(PORTD,(pin-PD0)); break;
